@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Catalog</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header-catalog">
+    <h1 class="logo"><a href="#" class="condition">DEVICE</a></h1>
+    <section class="upmenu">
+        <ul class="flex-start">
+            <li class="search icon-header">
+                <a href="#" class="search-link">Поиск по сайту</a>
+                <form method="post">
+                    <div class="search-block slide-hide">
+                        <input type="text" name="search" class="input-search"/>
+                        <button class="">Найти</button>
+                    </div>
+                </form>
+            </li>
+            <li class="login-but">
+                <a href="#" class="icon-header login-but">Войти</a>
+            </li>
+            <li class="compare">
+                <a href="#" class="icon-header compare-but">Сравнить</a>
+            </li>
+            <li class="flex-right">
+                <a href="#" class="icon-header basket-but">Корзина</a>
+            </li>
+        </ul>
+    </section>
+    <nav class="navbar">
+        <ul class=" flex-start menu-property">
+            <li class="catalog">
+                <div class="catalog-link">
+                    <a href="#">Каталог товаров</a>
+                    <section class="catalog-menu flex-start">
+                        <ul>
+                            <li><a href="#">Виртуальная реальность</a></li>
+                            <li><a href="#">Моноподы для селфи</a></li>
+                            <li><a href="#">Экшн-камеры</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Фитнесс-браслеты</a></li>
+                            <li><a href="#">Умные часы</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Квадрокоптеры</a></li>
+                        </ul>
+                    </section>
+                </div>
+            </li>
+            <li class="delivery active"><a href="#delivery">Доставка</a></li>
+            <li class="guarantee"><a href="#guarantee">Гарантия</a></li>
+            <li class="flex-right"><a href="#contacts">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="breadcrumbs container">
+    <h2>Моноподы для селфи</h2>
+    <div class="breadcrumbs-nav">
+        <ul class="menu-property">
+            <li><a href="index.html">Главная ></a></li>
+            <li><a href="#">Каталог товаров ></a></li>
+            <li><a>Моноподы для селфи</a></li>
+        </ul>
+    </div>
+</section>
+<main class="catalog-background">
+    <section class="container">
+        <section class="catalog-goods flex-between">
+            <section class="filter-column">
+                <div class="filter"><p>Фильтр:</p></div>
+                <div class="filter-cost"></div>
+                <div class="filter-color">
+                    <div>
+                        Цвет
+                    </div>
+                    <div>
+                        <label class="label-input">
+                            <input type="checkbox"/>Черный
+                            <span class="checkbox-indicator"></span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="label-input">
+                            <input type="checkbox"/>Белый
+                            <span class="checkbox-indicator"></span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="label-input">
+                            <input type="checkbox"/>Синий
+                            <span class="checkbox-indicator"></span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="label-input">
+                            <input type="checkbox"/>Красный
+                            <span class="checkbox-indicator"></span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="label-input">
+                            <input type="checkbox"/>Розовый
+                            <span class="checkbox-indicator"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="filter-bluetooth">
+                    <div>Bluetooth</div>
+                    <div>
+                        <label class="label-input">
+                            <input type="radio" name="bluetooth"/>Есть
+                            <span class="radio-indicator"></span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="label-input">
+                            <input type="radio" name="bluetooth"/>Нет
+                            <span class="radio-indicator"></span>
+                        </label>
+                    </div>
+                </div>
+                <button>Показать</button>
+            </section>
+            <section class="goods flex-right">
+                <div class="goods flex-between">
+                    <div>Сортировка:</div>
+                    <ul class="menu-property">
+                        <li><button>По цене</button></li>
+                        <li><button>По типу</button></li>
+                        <li><button>По популярности</button></li>
+                    </ul>
+                </div>
+                <div class="arrows"></div>
+                <div class="flex-between">
+                    <div class="goods-bar">
+                            <img src="images/catalog-item-1.jpg"/>
+                        <div class="catalog-goods-description">
+                            <p><a href="#">В корзину</a></p>
+                            <a href="#">Добавить к сравнению</a>
+                        </div>
+                        <div class="flex-between">
+                            <a href="#" class="catalog-description">Любительская селфи-палка</a>
+                            <span>500 руб.</span>
+                        </div>
+                    </div>
+                    <div class="goods-bar">
+                        <img src="images/catalog-item-2.jpg"/>
+                        <div class="flex-between">
+                            <a href="#" class="catalog-description">Профессиональная селфи-палка</a>
+                            <span>1500 руб.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-between">
+                    <div class="goods-bar">
+                        <img src="images/catalog-item-3.jpg"/>
+                        <div class="flex-between">
+                            <a href="#" class="catalog-description">Непотопляемая селфи-палка</a>
+                            <span>2500 руб.</span>
+                        </div>
+                    </div>
+                    <div class="goods-bar">
+                        <img src="images/catalog-item-4.jpg"/>
+                        <div class="flex-between">
+                            <a href="#" class="catalog-description">Селфи-палка "Следуй за мной"</a>
+                            <span>4900 руб.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods-navigation flex-between">
+                    <a href="#">Назад</a>
+                    <div class="catalog-pages">
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                    </div>
+                    <a href="#">Вперед</a>
+                </div>
+            </section>
+        </section>
+        <section class="write-us-popup">
+            <form class="" action="index.html" method="post">
+                <div class="popup-top-row flex-start">
+                    <div class="popup-first-column">
+                        <span class="popup-span">Ваше имя</span>
+                        <input type="text"
+                               name="login"
+                               placeholder="Представьтесь пожалуйста"/>
+                    </div>
+                    <div class="popup-second-column flex-right">
+                        <span class="popup-span">Ваш email</span>
+                        <input type="email"
+                               name="mail"
+                               placeholder="Для отправки ответа"/>
+                    </div>
+                </div>
+                <div class="popup-bottom-row">
+                    <span class="popup-span">Текст письма</span>
+                    <textarea type="text"
+                              name="letter"
+                              placeholder="В свободной форме"
+                              class="letter-text"></textarea>
+                    <span class="popup-submit">
+                    <input type="submit"
+                           name="send"
+                           value="Отправить"/>
+                </span>
+                </div>
+                <span class="close-button">+</span>
+            </form>
+        </section>
+        <div class="overlay"></div>
+    </section>
+</main>
+<footer>
+    <div class="container flex-start">
+        <section class="first-column-footer">
+            <div class="active-footer">
+                <a href="#" class="device-footer">Device</a>
+            </div>
+            <span>г.Москва, ул.Строителей, 15</span>
+        </section>
+        <section class="second-column-footer">
+            <ul class="flex-between">
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Гарантия</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <section class="social flex-between">
+                <a href="#" class="social-icon fb">fb</a>
+                <a href="#" class="social-icon twitt">twitter</a>
+                <a href="#" class="social-icon inst">instagram</a>
+            </section>
+        </section>
+        <section class="third-column-footer flex-right">
+            <ul>
+                <li><a href="#" class="icon login-but login-but-js">Войти</a></li>
+                <li><a href="#" class="icon compare-but">Сравнить</a></li>
+                <li><a href="#" class="icon basket-but">Корзина</a></li>
+            </ul>
+            <span class="telephone">
+          Тел.: +7(495)495-95-95
+        </span>
+            <a href="#" class="html-academy">
+                <img src="images/html-academy.png">
+            </a>
+        </section>
+    </div>
+</footer>
+<script src="js/scriptcatalog.js" type="text/javascript"></script>
+</body>
+</html>
